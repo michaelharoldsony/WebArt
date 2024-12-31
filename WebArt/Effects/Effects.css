@@ -1,0 +1,130 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes content-slidein {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+        
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes s_popIn {
+    
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .animate-fadein,
+    .content-slidein {
+        animation: none;
+    }
+}
+
+
+
+.animate-fadein {
+    animation: fadeIn 2s ease-out;
+}
+
+.animate-pop {
+    animation: popIn 3s ease-out;
+}
+
+.s_pop {
+    animation: s_popIn 3s ease-out;
+}
+
+.content-slidein {
+    animation: content-slidein 1.5s ease-in-out;
+}
+.hover-effect1_in {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in;
+}
+
+.hover-effect1_out {
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+.hover-effect2_in {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in;
+}
+
+.hover-effect2_out {
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+
+.hover-effect3_in {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in;
+}
+
+.hover-effect3_out {
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+
+
+.hover-effectb_in {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+}
+
+.hover-effectb_out {
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+}
+
+
+
+
+

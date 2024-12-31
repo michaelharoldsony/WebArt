@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/Bg.webp");
+    background-size:cover;
+    background-position: center;
+    background-repeat: repeat; 
+    height: 100vh;
+    margin: 0% 10% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.n_face{
+    background-color:#00e1ff;
+    padding:20% 0.001%  10%;
+    width:55%;
+    margin:0.2% auto;
+    border-radius: 100% 100% 50% 50%;
+    border: 5px solid white; 
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+}
+
+.a_face{
+    background-color:orange;
+    padding:20% 0.001%  10%;
+    width:55%;
+    margin:0.2% auto;
+    border-radius: 100% 100% 50% 50%;
+    border: 5px solid white; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.eyes{
+    display:flex;
+    justify-content: space-around; 
+    margin: 2% auto;
+
+    
+}
+.eye_out{
+    padding:5%;
+    border-radius:50%;
+    background-color: white;
+    border-width: 100%;
+    border-style: solid;
+
+}
+.eyeball_blue{
+    padding:10%;
+    width:100%;
+    background-color:aqua;
+    border-radius: 50%;
+}
+.eyeball_black{
+
+    padding:1%;
+    height: 50%;
+    width:100%;
+    background-color:black;
+    border-radius: 50%;
+}
+.eyeball_white{
+    padding:10%;
+    margin:30px;
+    width:20%;
+    height:50%;
+    background-color:white;
+    border-radius: 50%;
+
+}
+
+
+.zoom:hover{
+    transform: scale(1.4);
+        transition: transform 0.3s ease-in-out;
+
+}
+
+
+    .a_eye{
+    padding:6%;
+    border-radius:50%;
+    background-color:red;
+    border-width: 100%;
+    border-style: solid;}
+      
+        .a_eyeball_blue{
+            padding:10%;
+            width:100%;
+            background-color:red;
+            border-radius: 50%;
+         }
+
+        .a_eyeball_black{
+
+            padding:1%;
+            height: 50%;
+            width:100%;
+            background-color:red;
+            border-radius: 50%;
+        }
+
+        .a_eyeball_white{
+            padding:30%;
+            margin:20px;
+            width:20%;
+            height:50%;
+            background-color:black;
+            border-radius: 50%;
+        
+        
+        
+        transform: scale(1.4);
+        transition: transform 0.3s ease-in-out;
+        }
+    
+
+
+
+.mouth1{
+    padding:40px;
+    padding-top:0px;
+    margin:80px auto 0px;
+    width:20%;
+    border-radius:60%;
+    border-width: 100%;
+    border-style: solid;
+    background-color: red;
+
+}
+
+.mouth2{
+
+    padding:70px;
+    padding-top:0px;
+    margin:80px auto 0px;
+    width:35%;
+    border-radius:100%;
+    border-width:100%;
+    border-style: solid ;
+    background-color: red;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+   
+
+}
+
+.mouth:hover{
+    padding:40px;
+    padding-top:0px;
+    margin:80px auto 0px;
+    width: 10%;
+    border-radius:60%;
+    border-width: 100%;
+    border-style: solid;
+    background-color: red;
+    
+    
+
+    
+    transform: scale(1.4);
+    transition: transform 0.3s ease-in-out;
+}
+.teeth{
+    display:flex;
+    justify-content: center;
+    gap:5% 
+
+}
+
+.nav-link {
+    color: black;
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+         body {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+            height: 100vh;
+            margin: 0%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:black;
+            
+        }
+        .nav-link {
+            color:black;
+        }
+        .nav-link.active {
+            color: black;
+        }
+        .btn-light {
+            background-color:#0d6efd;
+            color: white;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        p.lead {
+            font-size: 1.25rem;
+        }
+    
+        html, body {
+            margin: 0;                
+            padding: 0;               
+            width: 100%;              
+            overflow-x: hidden;       
+        }
