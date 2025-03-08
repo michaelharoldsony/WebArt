@@ -39,6 +39,6 @@ Contributions are welcome! 🚀
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-📌 **GitHub:** [michaelharold](https://github.com/michaelharold)  
+📌 **GitHub:** [Michael Harold Sony](https://github.com/michaelharoldsony)  
 📧 **Email:** michaelharoldsony.dev@gmail.com
 
